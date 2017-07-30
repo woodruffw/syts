@@ -85,7 +85,7 @@ defmodule Syts do
   """
   @spec play_selection(map()) :: :ok
   def play_selection(map) do
-    {_, 0} = System.cmd("mpv", [map["url"]])
+    {_, 0} = System.cmd("mpv", [map["webpage_url"]])
     :ok
   end
 end
