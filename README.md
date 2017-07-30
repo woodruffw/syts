@@ -15,7 +15,7 @@ Syts is available via Hex:
 ```elixir
 def deps do
   [
-    {:syts, "~> 0.1.0"}
+    {:syts, "~> 0.2.0"}
   ]
 end
 ```
