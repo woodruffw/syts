@@ -4,7 +4,7 @@ defmodule Syts.Mixfile do
   def project do
     [
       app: :syts,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.5",
       escript: [main_module: Syts.CLI],
       start_permanent: Mix.env == :prod,
